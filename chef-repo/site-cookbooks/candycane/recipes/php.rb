@@ -1,4 +1,4 @@
-%w{ php php-mysql php-xml php-pecl-xdebug }.each do |package|
+%w{ php php-mbstring php-mysql php-xml php-pecl-xdebug }.each do |package|
   package package do
     action :install
   end
