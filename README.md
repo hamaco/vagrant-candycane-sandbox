@@ -8,7 +8,6 @@
 
 ```
 $ cd vagrant-candycane-sandbox
-$ bundle install
 $ vagrant up
 ```
 

@@ -1,4 +1,4 @@
-source 'https://rubygems.org'
+source "https://rubygems.org"
 
-gem 'berkshelf'
-gem 'vagrant', '~> 1.0.5'
+gem "serverspec"
+gem "rake"
