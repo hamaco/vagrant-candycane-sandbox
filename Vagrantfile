@@ -11,12 +11,13 @@ Vagrant.configure("2") do |config|
 
   config.vm.provision :chef_solo do |chef|
     chef.cookbooks_path = ["chef-repo/cookbooks", "chef-repo/site-cookbooks"]
+    chef.data_bags_path = "chef-repo/data_bags"
 
-      chef.add_recipe "recipe[yum::epel]"
-      chef.add_recipe "recipe[candycane::default]"
-      chef.add_recipe "recipe[candycane::apache]"
-      chef.add_recipe "recipe[candycane::mysql]"
-      chef.add_recipe "recipe[candycane::php]"
-      chef.add_recipe "recipe[candycane::candycane]"
+    chef.add_recipe "recipe[yum::epel]"
+    chef.add_recipe "recipe[candycane::default]"
+    chef.add_recipe "recipe[candycane::apache]"
+    chef.add_recipe "recipe[candycane::mysql]"
+    chef.add_recipe "recipe[candycane::php]"
+    chef.add_recipe "recipe[candycane::candycane]"
   end
 end

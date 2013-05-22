@@ -3,6 +3,7 @@
     action :install
   end
 end
+
 cookbook_file "/etc/php.ini" do
   source "php.ini"
   owner "root"
