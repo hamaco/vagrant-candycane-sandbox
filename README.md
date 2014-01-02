@@ -4,9 +4,14 @@
 
 # Requirements
 
+- Git
+- Vagrant
+- VirtualBox
+
 # Usage
 
-```
+```bash
+$ git clone https://github.com/hamaco/vagrant-candycane-sandbox.git
 $ cd vagrant-candycane-sandbox
 $ vagrant up
 ```
