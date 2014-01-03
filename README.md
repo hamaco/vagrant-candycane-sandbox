@@ -2,6 +2,8 @@
 
 最新のCandyCaneが簡単に動く予定
 
+__candycane本家のリポジトリにVagrantfileがあるのでそれ使うといいよ！__
+
 # Requirements
 
 - Git
